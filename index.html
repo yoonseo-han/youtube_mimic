@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube</title>
+</head>
+<body>
+    <!--Youtube header-->
+    <header>
+         <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+         </div>
+         <div class="icon">
+            <button class="search"><i class="fas fa-search"></i></button>
+            <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+         </div>
+    </header>
+
+    <!--Youtube player-->
+    <section class="player">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/vWl_pd19RRU" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <div class="infoAndUpNext">
+        <!--Information section-->
+        <section class="info">
+            <div class="metaData">
+                <ul class="hashtags">
+                    <li>#Yoonseo Han</li>
+                    <li>#Minjoo Kim</li>
+                    <li>#Youtube</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title">Yoonseo Han introduction video</span>
+                    <button class="moreInfo"><i class="fas fa-angle-down"></i></button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+                
+            </div>
+            <ul class="buttons">
+                <li><button><i id="unit" class="fas fa-thumbs-up"></i><span>1K</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share-square"></i><span>Share</span></button></li>
+                <li><button><i class="fas fa-download"></i><span>Download</span></button></li>
+                <li><button><i class="fas fa-flag"></i><span>Report</span></button></li>
+            </ul>
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/1.jpeg" alt="Channel photo">
+                    <div class="Info">
+                        <span class="title">Computer science</span>
+                        <span class="subscriber">100M Subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">Subscribe</button>
+            </div>
+        </section>
+    
+        <!--related videos-->
+        <section class="upNext">
+            <span class="title">Up Next</span>
+            <ul class="videos">
+                <li class="item 1">
+                    <div class="img"><img src="image/2.jpeg" alt="1st next video"></div>
+                    <div class="info">
+                        <span class="title">Hello future</span>
+                        <span class="channels">NCT dream</span>
+                        <span class="views">1K</span>
+                    </div>
+                    <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item 2">
+                    <div class="img"><img src="image/3.jpeg" alt="2nd video"></div>
+                    <div class="info">
+                        <span class="title">Your dog loves you</span>
+                        <span class="channels">Colde</span>
+                        <span class="views">1M</span>
+                    </div>
+                    <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item 3">
+                    <div class="img"><img src="image/4.jpeg" alt="1st next video"></div>
+                    <div class="info">
+                        <span class="title">Highest in the room</span>
+                        <span class="channels">George</span>
+                        <span class="views">10K</span>
+                    </div>
+                    <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
